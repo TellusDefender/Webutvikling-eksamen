@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Nettbutikk | Forside</title>
+    <title>Nettbutikk | Checkout</title>
     <script src="https://kit.fontawesome.com/6d731a9510.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
@@ -75,49 +75,131 @@
    <h2> 2. Dine opplysninger </h2>
 
    <p>leveringsadresse</p>
-   Fornavn*
-   Etternavn*
-   Gateadresse*
-   Postnummer*
-   Postnummer*
+   
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fornavn*"> 
+</label>
+</p>
 
-   Lagre
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Etternavn*"> 
+</label>
+</p>
 
-   Avbryt
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Gateadresse*"> 
+</label>
+</p>
+
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Postnummer*"> 
+</label>
+</p>
+
+<p>
+<label>
+    <input type="number"required.placeholder="Postnummer"> 
+</label>
+</p>
+
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Postnummer*"> 
+</label>
+</p>
+
+<p>
+<label>
+    <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Lagre"> 
+</label>
+</p>
+
+<p>
+    <a href="#"> Avbryt </a>
+</p>
 
 
    <h2>  3. Levering </h2>
    
-   <h3>Leveringsvalg</h3>
+   <h3>LEVERINGSVALG</h3>
 
-   <ul>
-    <li>Express hjemlevering</li>
-    <li>Ekspress pakke til utleveringssted</li>
-    <li>Standard hjemlevering</li>
-   </ul>
+<p>
+<label>
+    <input type="radio"> Express hjemlevering
+</label>
+</p>
+
+<p>
+<label>
+    <input type="radio"> Express pakke til utleveringsted
+</label>
+</p>
+    
+
+<p>
+<label>
+    <input type="radio"> Standard hjemlevering
+</label>
+</p>
+        
+
+   
 
    <h2>  4. Betaling </h2>
 
    <h3> BETAL MED KORT </h3>
-   kortnummer
 
-   342342****4435
+   
+    <label>
+        Kortnummer
+        <input type="number" pattern="[A-Za-zæøåÆØÅ ]{2,}" placeholder="342342****4435"> 
+    </label>
+    
 
-   utløpsdato
-   mm/dd/yyyy
+    
+        <label>
+            utløpsdato
+        <input type="date" pattern="[A-Za-zæøåÆØÅ ]{2,}"placeholder="utløpsdato">
+        </label>
+    
 
-   CVC/CVV
-   CVC//CVV
+    
+        <label>
+            CVC/CVV
+            <input type="date" pattern="[A-Za-zæøåÆØÅ ]{2,}"placeholder="CVC//CVV">
+        </label>
+    
+
 
    <p> Å betale inkl.mva </p>
-   1 199kr
+   <p> 1 199kr </p>
 
-   <p> Fullfør kjøp </p>
+   <p>
+    <label>
+        <input type="text" pattern="[A-Za-zæøåÆØÅ ]{2,}" required placeholder="Fullfør kjøp"> 
+    </label>
+    </p>
+ 
 
    Du bekrefter herved at opplysningene og dokumentene du har oppgitt er korrekte og fullstendige. Leverandæren forbeholder seg retten til å heve eller avslutte avtaleforholdet dersom det foreligger uriktige eller ufullstendige opplysninger
 
-   Ja takk! Send nyhetsbrev til meg
-   Jeg ønsker å motta teskstmeldinger med tilbud og nyheter
+   <p>
+    <label>
+        <input type="radio"> Ja takk! Send nyhetsbrev til meg
+    </label>
+    </p>
+
+
+    <p>
+        <label>
+            <input type="radio"> Jeg ønsker å motta teskstmeldinger med tilbud og nyheter
+        </label>
+        </p>
+
 
 
 <footer>
